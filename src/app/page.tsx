@@ -3,7 +3,7 @@ export default function Home() {
 
   return (
     <div>
-      Hello World <code>{date.toDateString()}</code>
+      Hello World!!! <code>{date.toDateString()}</code>
     </div>
   );
 }
