@@ -1,3 +1,9 @@
 export default function Home() {
-  return <div>Hello World</div>;
+  const date = new Date();
+
+  return (
+    <div>
+      Hello World <code>{date.toDateString()}</code>
+    </div>
+  );
 }
